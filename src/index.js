@@ -94,7 +94,7 @@ export const createItems = async () => {
       INSERT INTO categories (name)
       VALUES ('Fantasy');
    `);
-
+   
   await client.query(`
       INSERT INTO authors (name)
       VALUES ('Joe Abercrombie');
