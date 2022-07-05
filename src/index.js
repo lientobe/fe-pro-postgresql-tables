@@ -86,8 +86,8 @@ export const createItems = async () => {
   client.connect();
 
   await client.query(`
-      INSERT INTO users (name)
-      VALUES ('Jessie');
+      INSERT INTO users (name, date)
+      VALUES ('Jessie', '2021-01-01 00:00:01');
    `);
 
   await client.query(`
