@@ -27,7 +27,7 @@ export const createStructure = async () => {
       CREATE TABLE users (
          id serial PRIMARY KEY,
          name VARCHAR(30) NOT NULL,
-         date TIMESTAMP NOT NULL DEFAULT now()
+         date TIMESTAMP DEFAULT now()
       );
   `);
 
